@@ -1,0 +1,336 @@
+@media (max-width:1199px) {
+  html {
+    font-size: 14px;
+  }
+
+
+  .btn.btn--large {
+    height: 40px;
+    line-height: 40px;
+    padding: 0 30px;
+    font-size: 1.2em;
+  }
+
+  .btn.btn--xlarge {
+    height: 50px;
+    line-height: 50px;
+    padding: 0 40px;
+    font-size: 1.3em;
+  }
+
+  .col-md-12:not(:last-child) {
+    margin-bottom: 30px;
+  }
+
+  .section:not(.section--main) {
+    padding: 30px 0;
+  }
+
+  .nav {
+    display: none;
+    overflow: auto;
+    max-height: calc(100vh - 70px);
+    background: #2cbed2;
+    color: #fff;
+    text-align: left;
+    padding: 30px;
+    position: absolute;
+    left: 0;
+    top: 100%;
+    right: 0;
+    box-shadow: 0 5px 1px rgba(0, 0, 0, 0.2);
+  }
+
+  .nav__secondary .container {
+    padding-left: 0;
+    padding-right: 0;
+  }
+
+  .nav__primary {
+    display: none;
+  }
+
+  .nav__secondary {
+    display: block;
+  }
+
+  .nav__primary ul:after, .nav__secondary ul:after {
+    clear: both;
+    content: " ";
+    display: table;
+  }
+
+  .nav__primary li, .nav__secondary li {
+    width: 47.5%;
+    margin-right: 4.5%;
+    display: block;
+    float: left;
+  }
+
+  .nav__primary li:nth-child(2n), .nav__secondary li:nth-child(2n) {
+    margin-right: 0;
+  }
+
+  .nav__primary li a, .nav__secondary li a {
+    display: block;
+    color: inherit;
+    font-weight: normal;
+    font-size: 1.2em;
+    padding: 15px 0;
+  }
+
+  .nav__primary li:nth-child(2n+1) a, .nav__secondary li:nth-child(2n+1) a {
+    border-right: solid 2px rgba(255, 255, 255, 0.3);
+  }
+
+  .nav-slogan h2 {
+    font-size: 32px;
+  }
+
+  .toggle--search {
+    width: 51px;
+  }
+
+  .toggle--nav {
+    float: right;
+    width: 50px;
+  }
+
+  .post__date {
+    font-size: 1.1em;
+  }
+
+  .post__body {
+    padding: 20px;
+  }
+
+  /* post main ---------------------- */
+  .post--main .post__body {
+    padding: 20px;
+  }
+
+  .post--main .post__title {
+    font-size: 2em;
+  }
+
+  .post--main .post__date {
+    font-size: 1.2em;
+    margin: 0 0 10px;
+  }
+
+  .post--main .post__date:before, .post--main .post__date:after {
+    display: none;
+  }
+
+  .post--main .post__body:before {
+    top: -10px;
+    content: "";
+    border-left: 10px solid transparent;
+    border-right: 10px solid transparent;
+    border-bottom: 10px solid #2cbed2;
+    margin: 0 0 0 -10px;
+  }
+
+  .post__description {
+    display: none;
+  }
+
+  /* post horizontal ---------------------- */
+  .post--horizontal .post__head,
+  .post--horizontal .post__body {
+    width: 50%;
+  }
+
+  /* post vertical ---------------------- */
+  .post--vertical {
+    display: table;
+    width: 100%;
+  }
+
+  .post--vertical .post__head, .post--horizontal .post__body {
+    width: 50%;
+    display: table-cell;
+    vertical-align: top;
+  }
+
+  .post--vertical .post__title {
+    height: auto;
+  }
+
+  .form--search input[type="submit"] {
+    width: 50px;
+    right: -15px;
+    padding: 0;
+  }
+
+  .tabs--arrow li a {
+    font-size: 1.4em;
+    height: 50px;
+    padding: 0 20px;
+    line-height: 50px;
+  }
+
+  /* ------------------------------------------------- Post Details -------------------------------------------------------------------- */
+  .post.post--detail .post__content .post__title {
+    font-size: 2em;
+  }
+
+  /* ------------------------------------------------- Related Posts -------------------------------------------------------------------- */
+  .related-posts .post {
+    display: table;
+    width: 100%;
+  }
+
+  .related-posts .post .post__head, .related-posts .post .post__body {
+    width: 50%;
+    display: table-cell;
+    vertical-align: top;
+  }
+
+  .related-posts .post .post__body {
+    padding: 30px;
+    border: 1px solid #ebeaea;
+  }
+
+  .related-posts [class*="col-"]:not(:last-child) {
+    margin-bottom: 20px;
+  }
+
+  .comment-element:not(:last-child) {
+    padding: 0 0 20px;
+    margin: 0 0 30px;
+  }
+
+  .comment-element .comment-element {
+    padding: 30px 0 0;
+    margin: 20px 0 0 60px;
+  }
+
+  .comment-form {
+    padding: 30px;
+  }
+}
+
+@media (max-width:1199px) and (min-width:767px) {
+  .pagination li a {
+    width: 40px;
+    line-height: 35px;
+    height: 35px;
+    font-size: 1.5em;
+  }
+
+  .pagination li.prev a:after {
+    width: 12px;
+    left: 14px;
+  }
+
+  .pagination li.prev a:before {
+    width: 12px;
+    margin: -6px 0 0;
+    height: 12px;
+    left: 14px;
+  }
+
+  .pagination li.next a:before {
+    width: 12px;
+    height: 12px;
+    right: 14px;
+    margin: -6px 0 0;
+  }
+
+  .pagination li.next a:after {
+    width: 12px;
+    left: 14px;
+  }
+}
+
+@media (max-width:767px) {
+  html {
+    font-size: 13px;
+  }
+
+
+
+  [class*="col-"]:not(:last-child) {
+    margin-bottom: 20px;
+  }
+
+  .section:not(.section--main) {
+    padding: 20px 0;
+  }
+
+  .nav__primary li, .nav__secondary li {
+    display: block;
+    width: 100%;
+    margin-right: 0;
+  }
+
+  .nav__primary li:nth-child(2n+1) a, .nav__secondary li:nth-child(2n+1) a {
+    border-right: solid 0 rgba(255, 255, 255, 0.3);
+  }
+
+  .nav-slogan h2 {
+    font-size: 24px;
+  }
+
+  .post__date {
+    font-size: 1em;
+  }
+
+  .post__body, .related-posts .post .post__body {
+    padding: 15px;
+  }
+
+  .post--main .post__body {
+    padding: 10px;
+  }
+
+  .post--main .post__title {
+    font-size: 1.2em;
+  }
+
+  .post--main .post__date {
+    font-size: 1em;
+    margin: 0 0 10px;
+  }
+
+  /* post horizontal & vertical---------------------- */
+  .post--horizontal, .post--vertical {
+    margin: 20px 0;
+  }
+
+  .post--horizontal, .post--horizontal .post__head, .post--horizontal .post__body,
+  .post--vertical, .post--vertical .post__head, .post--horizontal .post__body,
+  .related-posts .post, .related-posts .post .post__head, .related-posts .post .post__body {
+    display: block;
+    width: 100%;
+  }
+
+  .related-posts .post .post__title {
+    font-size: 1.2em;
+  }
+
+  /* paginations */
+  .pagination.center>li:not(.prev):not(.next) {
+    display: none;
+  }
+
+  .post.post--detail .post__content .post__title {
+    font-size: 1.6em;
+  }
+
+  .tabs--arrow li a {
+    font-size: 1.2em;
+    height: 40px;
+    padding: 0 20px;
+    line-height: 40px;
+  }
+
+  .comment-form {
+    padding: 20px;
+  }
+
+  .post__detail p {
+    text-align: left;
+  }
+}
