@@ -1,5 +1,3 @@
-Hospital Management System
-
 The Hospital Management System is a comprehensive application designed to manage various aspects of hospital operations efficiently. This system provides role-based access for Admins, Doctors, Patients, and Pharmacists, enabling streamlined management of appointments, patient records, prescriptions, and inventory.
 
 Key Features
